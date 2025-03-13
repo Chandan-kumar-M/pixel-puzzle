@@ -36,7 +36,7 @@ const Hero = () => {
         <ChevronRight size={24} />
       </button>
       
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\"%3E%3Cpath fill=\"%23ffffff\" fill-opacity=\"0.05\" d=\"M0 0 L50 0 L50 50 L0 50 Z M50 50 L100 50 L100 100 L50 100 Z\"%3E%3C/path%3E%3C/svg%3E')] opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.05%22%20d%3D%22M0%200%20L50%200%20L50%2050%20L0%2050%20Z%20M50%2050%20L100%2050%20L100%20100%20L50%20100%20Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')] opacity-10"></div>
     </section>
   );
 };
