@@ -38,7 +38,10 @@ const NewArrivals = () => {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="container mx-auto">
-        <h2 className="section-title">NEW ARRIVALS</h2>
+        <h2 className="section-title relative">
+          <span className="relative z-10">NEW ARRIVALS</span>
+          <span className="absolute top-0 left-0 -mt-1 h-6 w-12 bg-gold opacity-20"></span>
+        </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
           {products.map((product, index) => (
@@ -54,8 +57,12 @@ const NewArrivals = () => {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500 ease-out" 
                 />
               </div>
-              <h3 className="font-medium text-lg mb-1">{product.name}</h3>
-              <p className="text-gray-500 text-sm">AED {product.price.toFixed(2)}</p>
+              <div className="flex justify-between items-center mb-2">
+                <h3 className="font-medium text-lg">{product.name}</h3>
+                <p className="text-gray-700">AED {product.price.toFixed(2)}</p>
+              </div>
+              <hr className="w-4/5 mx-auto mb-2 border-gray-300" />
+              <p className="text-gray-500 text-sm">{product.category}</p>
             </div>
           ))}
         </div>

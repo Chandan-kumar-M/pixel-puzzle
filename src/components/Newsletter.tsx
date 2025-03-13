@@ -14,8 +14,9 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-16 px-4 bg-[url('/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png')] bg-cover bg-center">
-      <div className="container mx-auto text-center max-w-2xl animate-fade-in">
+    <section className="py-16 px-4 bg-[url('/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png')] bg-cover bg-center relative">
+      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="container mx-auto text-center max-w-2xl animate-fade-in relative z-10">
         <h2 className="text-3xl font-bold mb-6 text-white">Subscribe</h2>
         <p className="text-white mb-8">
           Get the Latest Sports Trends, Exclusive Deals & Game-Changing Updates Straight to Your Inbox!

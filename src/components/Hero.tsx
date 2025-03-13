@@ -1,13 +1,41 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+const heroImages = [
+  {
+    id: 1,
+    src: "/lovable-uploads/f04baf1b-0f47-45b7-bf29-3c893ff5e483.png",
+    alt: "Sports Jersey 1"
+  },
+  {
+    id: 2,
+    src: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    alt: "Sports Jersey 2"
+  },
+  {
+    id: 3,
+    src: "/lovable-uploads/88ae73b2-a98e-449b-87bc-5ae705155d44.png",
+    alt: "Sports Jersey 3"
+  }
+];
+
 const Hero = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + heroImages.length) % heroImages.length);
+  };
+
   return (
-    <section className="relative w-full hero-pattern overflow-hidden">
+    <section className="relative w-full hero-pattern overflow-hidden bg-gray-900">
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 text-white z-10 animate-fade-in">
+        <div className="w-full md:w-1/2 text-white z-10 animate-fade-in pl-4 md:pl-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             ALL THE <span className="gold-text">JERSEYS</span> <br />
             YOU NEED, <span className="gold-text">IN ONE</span> <br />
@@ -17,22 +45,28 @@ const Hero = () => {
             Get the perfect jersey for any sport, any team, and any occasion—all in one place! We offer a wide range of high-quality jerseys to match your style and performance needs.
           </p>
           <Link to="/collections" className="btn-primary">
-            Shop More
+            Learn More
           </Link>
         </div>
         <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center animate-scale-in">
           <img 
-            src="/lovable-uploads/f04baf1b-0f47-45b7-bf29-3c893ff5e483.png" 
-            alt="Sports Jersey" 
+            src={heroImages[currentImageIndex].src} 
+            alt={heroImages[currentImageIndex].alt} 
             className="max-w-full md:max-w-md h-auto object-contain rounded-md"
           />
         </div>
       </div>
       
-      <button className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/20 transition-all z-20">
+      <button 
+        className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/20 transition-all z-20"
+        onClick={prevImage}
+      >
         <ChevronLeft size={24} />
       </button>
-      <button className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/20 transition-all z-20">
+      <button 
+        className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/20 transition-all z-20"
+        onClick={nextImage}
+      >
         <ChevronRight size={24} />
       </button>
       

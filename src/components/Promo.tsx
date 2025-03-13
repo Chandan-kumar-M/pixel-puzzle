@@ -24,10 +24,10 @@ const Promo = () => {
           <div className="bg-gold text-white py-2 px-6 inline-block mb-6">
             Starting AED 99
           </div>
-          <p className="text-gray-300 mb-8 max-w-md">
+          <p className="text-gray-100 mb-8 max-w-md">
             MR Sports offers a wide range of high-quality sports shoes designed for comfort, durability, and performance.
           </p>
-          <Link to="/collections" className="btn-primary">
+          <Link to="/collections" className="border border-gold text-white py-2 px-6 hover:bg-gold/20 transition-colors">
             Know More
           </Link>
         </div>

@@ -39,7 +39,10 @@ const TopDeals = () => {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="container mx-auto">
-        <h2 className="section-title">TOP DEALS</h2>
+        <h2 className="section-title relative">
+          <span className="relative z-10">TOP DEALS</span>
+          <span className="absolute top-0 left-0 -mt-1 h-6 w-10 bg-gold opacity-20"></span>
+        </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
           {deals.map((deal, index) => (

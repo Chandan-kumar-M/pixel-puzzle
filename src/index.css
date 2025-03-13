@@ -87,7 +87,7 @@
 
   .section-title::after {
     content: '';
-    @apply absolute h-px w-[200px] bg-slate-300 left-full ml-8 top-1/2;
+    @apply absolute h-px w-[calc(100vw-400px)] bg-slate-300 left-full ml-8 top-1/2;
   }
 
   .hero-pattern {

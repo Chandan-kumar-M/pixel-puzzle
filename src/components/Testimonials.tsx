@@ -58,6 +58,7 @@ const Testimonials = () => {
           <div className="absolute top-32 left-8 w-8 h-8 bg-gold rounded-full opacity-20"></div>
           <div className="absolute bottom-0 right-0 w-16 h-16 bg-black rounded-full opacity-20"></div>
           <div className="absolute bottom-24 right-8 w-8 h-8 bg-black rounded-full opacity-20"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gold rounded-full opacity-10"></div>
           
           {testimonials.map((testimonial) => (
             <div 

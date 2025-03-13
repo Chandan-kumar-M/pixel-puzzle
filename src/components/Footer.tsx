@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t text-center text-sm text-gray-500">
+        <div className="mt-8 pt-8 border-t flex justify-end text-sm text-gray-500">
           © 2023 MR Sports Inc. All Rights Reserved.
         </div>
       </div>
