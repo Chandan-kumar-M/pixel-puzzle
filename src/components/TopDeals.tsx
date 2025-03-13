@@ -13,25 +13,25 @@ const deals: Deal[] = [
     id: 1,
     title: "CUSTOMIZED TROPHIES",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png"
+    image: "/lovable-uploads/f62f278e-e05e-464c-bce0-ef412c1ee643.png"
   },
   {
     id: 2,
-    title: "CUSTOMIZED TROPHIES",
-    price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png"
+    title: "CRICKET EQUIPMENT",
+    price: 120,
+    image: "/lovable-uploads/83c12567-3896-467f-842e-c300139bb59a.png"
   },
   {
     id: 3,
-    title: "CUSTOMIZED TROPHIES",
-    price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png"
+    title: "SPORTS BALLS",
+    price: 45,
+    image: "/lovable-uploads/74c0dbe5-fdf6-4dbc-af09-7d9e4ff105a8.png"
   },
   {
     id: 4,
-    title: "CUSTOMIZED TROPHIES",
-    price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png"
+    title: "SWIMMING GEAR",
+    price: 60,
+    image: "/lovable-uploads/5e0e2d96-15fc-4d13-9b43-8715cbbc5b5f.png"
   }
 ];
 

@@ -14,35 +14,35 @@ const services: Service[] = [
     id: 1,
     title: "Custom Sport Uniforms",
     description: "Fully customized Cricket & Football uniforms",
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/lovable-uploads/cfd0f1ce-cd66-4ea3-b44d-f7c645e52350.png",
     grid: "col-span-2 row-span-1"
   },
   {
     id: 2,
     title: "Personalized Gift Items",
     description: "Personalized Pens, Signature Bats, Notebooks, Key Rings, Mugs, etc.",
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/lovable-uploads/ceb78dcc-cf40-44cb-ac29-53c42a6acdd7.png",
     grid: "col-span-2 row-span-1"
   },
   {
     id: 3,
     title: "Sports Event Management",
     description: "Organizing Cricket, Football, Volleyball, and more (Indoor & Outdoor) events",
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/lovable-uploads/5739b5cb-6d05-4f57-a410-9e25ffd42781.png",
     grid: "col-span-3 row-span-1"
   },
   {
     id: 4,
     title: "Sports Tourism & Hospitality",
     description: "Experience unforgettable sports & tourism packages in the UK, Hotel Bookings & Airport Transportation services for teams and officials",
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/lovable-uploads/89fdf592-1d31-4f67-af62-18b33c5da0a3.png",
     grid: "col-span-3 row-span-1"
   },
   {
     id: 5,
     title: "Event Branding & Promotional Materials",
     description: "Accreditation Cards, Flex Banners, Flyers, Backdrops, Roll-Up Stands, etc.",
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/lovable-uploads/ec5ae6b8-fa25-4aee-8c70-ce3679326d01.png",
     grid: "col-span-3 row-span-1"
   }
 ];

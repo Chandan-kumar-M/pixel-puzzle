@@ -8,9 +8,12 @@ const Promo = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0 animate-slide-in-left">
           <div className="relative">
+            {/* Brown vertical rectangle in the middle */}
+            <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-10 h-20 bg-gold opacity-40 z-0"></div>
+            {/* Gold rectangle behind the shoe image */}
             <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-gold opacity-20 z-0"></div>
             <img 
-              src="/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png" 
+              src="/lovable-uploads/ac568d8d-f059-4dbe-9767-454ec074fdc3.png" 
               alt="Sport Shoes" 
               className="max-w-xs object-contain relative z-10"
             />
