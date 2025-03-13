@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <Link to="/" className="mb-6 md:mb-0">
-            <img src="/lovable-uploads/88ae73b2-a98e-449b-87bc-5ae705155d44.png" alt="MR Sports Logo" className="h-10" />
+          MR SPORTS
           </Link>
           
           <nav className="flex flex-wrap justify-center gap-6 md:gap-8 text-sm">

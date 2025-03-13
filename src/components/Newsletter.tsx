@@ -14,7 +14,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-16 px-4 bg-[url('/lovable-uploads/8c54d614-fe8e-4d7c-9067-56ddc2131252.png')] bg-cover bg-center relative">
+    <section className="py-16 px-4 bg-[url('/uploads/8c54d614-fe8e-4d7c-9067-56ddc2131252.png')] bg-cover bg-center relative">
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="container mx-auto text-center max-w-2xl animate-fade-in relative z-10">
         <h2 className="text-3xl font-bold mb-6 text-white">Subscribe</h2>

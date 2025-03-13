@@ -15,21 +15,21 @@ const products: Product[] = [
     id: 1,
     name: "JD Cricket Bats",
     price: 780,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/Manybats.jpeg",
     category: "Cricket"
   },
   {
     id: 2,
     name: "Adidas Shoes",
     price: 450,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/Normalshoe.jpeg",
     category: "Footwear"
   },
   {
     id: 3,
     name: "Red Rock Cricket Kit",
     price: 1350,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/Threebags.jpeg",
     category: "Cricket"
   }
 ];

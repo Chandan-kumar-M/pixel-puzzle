@@ -16,7 +16,7 @@ const collections: Collection[] = [
     id: 1,
     title: "BOXING KIT",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/boxer.jpeg",
     category: "Boxing",
     rating: 4
   },
@@ -24,7 +24,7 @@ const collections: Collection[] = [
     id: 2,
     title: "TENNIS KIT",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/tennis.jpeg",
     category: "Tennis",
     rating: 4
   },
@@ -32,7 +32,7 @@ const collections: Collection[] = [
     id: 3,
     title: "CRICKET KIT",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/kit.jpeg",
     category: "Cricket",
     rating: 5
   },
@@ -40,7 +40,7 @@ const collections: Collection[] = [
     id: 4,
     title: "CUSTOMIZED TROPHIES",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/trophy.jpeg",
     category: "Trophies",
     rating: 4
   },
@@ -48,7 +48,7 @@ const collections: Collection[] = [
     id: 5,
     title: "BASKETBALL KIT",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/man.jpeg",
     category: "Basketball",
     rating: 5
   },
@@ -56,7 +56,7 @@ const collections: Collection[] = [
     id: 6,
     title: "SWIMMING EQUIPMENTS",
     price: 70,
-    image: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    image: "/uploads/pink.jpeg",
     category: "Swimming",
     rating: 4
   }

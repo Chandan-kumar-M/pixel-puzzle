@@ -6,17 +6,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const heroImages = [
   {
     id: 1,
-    src: "/lovable-uploads/f04baf1b-0f47-45b7-bf29-3c893ff5e483.png",
+    src: "/uploads/Carousal.jpeg",
     alt: "Sports Jersey 1"
   },
   {
     id: 2,
-    src: "/lovable-uploads/dc1c8fcc-5ffb-4710-b620-014d4af7f755.png",
+    src: "/uploads/Carousal2.jpeg",
     alt: "Sports Jersey 2"
   },
   {
     id: 3,
-    src: "/lovable-uploads/88ae73b2-a98e-449b-87bc-5ae705155d44.png",
+    src: "/uploads/Carousal3.jpeg",
     alt: "Sports Jersey 3"
   }
 ];

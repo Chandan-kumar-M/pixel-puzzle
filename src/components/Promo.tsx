@@ -13,7 +13,7 @@ const Promo = () => {
             {/* Gold rectangle behind the shoe image */}
             <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-gold opacity-20 z-0"></div>
             <img 
-              src="/lovable-uploads/ac568d8d-f059-4dbe-9767-454ec074fdc3.png" 
+              src="/uploads/Shoe.jpeg" 
               alt="Sport Shoes" 
               className="max-w-xs object-contain relative z-10"
             />

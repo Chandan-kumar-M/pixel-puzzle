@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <div className="bg-black text-white flex justify-between items-center py-4 px-8">
         <Link to="/" className="flex items-center">
-          <img src="/lovable-uploads/88ae73b2-a98e-449b-87bc-5ae705155d44.png" alt="MR Sports Logo" className="h-12" />
+        MR SPORTS
         </Link>
         <nav className="hidden md:flex items-center space-x-8 font-medium">
           <Link to="/" className="hover:text-gold transition-colors">HOME</Link>
